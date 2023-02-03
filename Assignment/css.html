@@ -1,0 +1,263 @@
+• What are the benefits of using CSS?
+<b> Ans : </b>1) Faster Page Speed.
+2) Better User Experience.
+3) Quicker Development Time.
+4) Easy Formatting Changes.
+5) Compatibility Across Devices.
+<hr>
+
+• What are the disadvantages of CSS?
+<b> Ans : </b> There could be cross-browser issues while using CSS.
+
+<hr>
+
+• What is the difference between CSS2 and CSS3?
+<b> Ans : </b> The biggest difference between CSS2 and CSS3 is that CSS3 is now split into different modules. Since each
+module makes its way through the W3C individually, there's a wider range of browser support. Make sure you test your
+CSS3 pages in as many browsers and operating systems as possible to ensure compatibility.
+
+<hr>
+
+• Name a few CSS style components
+<b> Ans : </b> 1)Selecter:HTML element name, id name, class name.
+2)Property:It's like an attribute such as background color,font-size,position,text-align,color,border etc.
+3)Values:which defines property or values allocate for properties.
+
+<hr>
+
+• What do you understand by CSS opacity?
+<b> Ans : </b>The opacity CSS property sets the opacity of an element. Opacity is the degree to which content behind an
+element is hidden, and is the opposite of transparency.
+
+<hr>
+
+• How can the background color of an element be changed?
+<b> Ans : </b> To add background color in HTML, use the CSS background-color property.
+
+<hr>
+
+• How can image repetition of the backup be controlled?
+<b> Ans : </b> To control the repetition of an image in the background, use the background-repeat property.
+
+<hr>
+
+• What is the use of the background-position property?
+<b> Ans : </b> The background-position property sets the starting position of a background image.
+
+<hr>
+
+• Which property controls the image scroll in the background?
+<b> Ans : </b> background-attachment property
+
+<hr>
+
+• Why should background and color be used as separate properties?
+<b> Ans : </b>It enhances the legibility of style sheets. The background property is a complex property in CSS, and if
+it is combined with color, the complexity will further increase.
+
+<hr>
+
+• How to center block elements using CSS1?
+<b> Ans : </b>Center block elements using margin property: We need to specify the margin from left and right such that
+it looks centered.
+
+<hr>
+
+• How to maintain the CSS specifications?
+
+<hr>
+
+• What are the ways to integrate CSS as a web page?
+<b> Ans : </b>Inline,
+external,
+Internal,
+
+<hr>
+
+• What is embedded style sheets?
+<b> Ans : </b>It allows you to define styles for a particular HTML document as a whole in one place.
+
+<hr>
+
+• What are the external style sheets?
+<b> Ans : </b>An external style sheet is a separate CSS file that can be accessed by creating a link within the head
+section of the webpage.
+
+<hr>
+
+• What are the advantages and disadvantages of using external style sheets?
+<b> Ans : </b> Andvantage-There is no restriction to the number of web pages that can use the external style sheet.
+Disadvantage - Your pages may not be rendered correctly until the external CSS is loaded.
+Uploading or linking to multiple CSS files can increase your site's download time.
+
+<hr>
+
+• What is the meaning of the CSS selector?
+<b> Ans : </b> It is a pattern of elements and other terms that tell the browser which HTML elements should be selected
+to have the CSS property values inside the rule applied to them.
+
+<hr>
+
+• What are the media types allowed by CSS?
+
+<hr>
+
+• What is the rule set?
+<b> Ans : </b> A CSS ruleset is various affirmations to various pieces or elements of the document. The objective is to
+apply a bunch of properties for certain distinct qualities to a solitary, or a particular arrangement of components in
+the connected HTML page.
+
+<hr>
+
+• Create Layouts
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            margin: 0;
+            overflow-x: hidden;
+
+        }
+        .main-div {
+            width: 100%;
+            height: auto;
+            color: white;
+            margin: 100px;
+            margin-top: 0;
+
+        }
+
+        .main-div img {
+            width: 100%;
+            height: 150px;
+        }
+
+        .sub-div {
+            width: 25%;
+            height: auto;
+            margin: 8px;
+            padding: 10px;
+            background-color: #5b5f5e;
+            border-radius: 5px;
+            float: left;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        .btn {
+            text-align: left;
+            
+        }
+
+        button{
+            border: 1px solid black;
+            padding-left: 10px;
+            padding-right: 10px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: green;
+            color: aliceblue;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="main-div">
+        <div class="sub-div">
+            <center>
+                <img src="img/chart of guhjarati (2).png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ea corrupti corporis aut, at animi
+                    repellendus qui, accusamus maiores sint quibusdam quia amet numquam voluptatem vel nulla earum?
+                    Ratione, nesciunt.
+                </p>
+                <div class="btn">
+                    <button type="button">view</button>
+                    <button type="button">Edit</button>
+                </div>
+            </center>
+        </div>
+        <div class="sub-div">
+            <center>
+                <img src="img/chart of guhjarati (3).png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ea corrupti corporis aut, at animi
+                    repellendus qui, accusamus maiores sint quibusdam quia amet numquam voluptatem vel nulla earum?
+                    Ratione, nesciunt.
+                </p>
+                <div class="btn">
+                    <button type="button">view</button>
+                    <button type="button">Edit</button>
+                </div>
+            </center>
+        </div>
+        <div class="sub-div">
+            <center>
+                <img src="img/chart of guhjarati (2).png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ea corrupti corporis aut, at animi
+                    repellendus qui, accusamus maiores sint quibusdam quia amet numquam voluptatem vel nulla earum?
+                    Ratione, nesciunt.
+                </p>
+                <div class="btn">
+                    <button type="button">view</button>
+                    <button type="button">Edit</button>
+                </div>
+            </center>
+        </div>
+        <div class="sub-div">
+            <center>
+                <img src="img/chart of guhjarati (3).png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ea corrupti corporis aut, at animi
+                    repellendus qui, accusamus maiores sint quibusdam quia amet numquam voluptatem vel nulla earum?
+                    Ratione, nesciunt.
+                </p>
+                <div class="btn">
+                    <button type="button">view</button>
+                    <button type="button">Edit</button>
+                </div>
+            </center>
+        </div>
+        <div class="sub-div">
+            <center>
+                <img src="img/chart of guhjarati (2).png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ea corrupti corporis aut, at animi
+                    repellendus qui, accusamus maiores sint quibusdam quia amet numquam voluptatem vel nulla earum?
+                    Ratione, nesciunt.
+                </p>
+                <div class="btn">
+                    <button type="button">view</button>
+                    <button type="button">Edit</button>
+                </div>
+            </center>
+        </div>
+        <div class="sub-div">
+            <center>
+                <img src="img/chart of guhjarati (3).png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ea corrupti corporis aut, at animi
+                    repellendus qui, accusamus maiores sint quibusdam quia amet numquam voluptatem vel nulla earum?
+                    Ratione, nesciunt.
+                </p>
+                <div class="btn">
+                    <button type="button">view</button>
+                    <button type="button">Edit</button>
+                </div>
+            </center>
+        </div>
+    </div>
+
+</body>
+
+</html>
