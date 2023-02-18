@@ -1,0 +1,66 @@
+1.What is javascript?
+ANS: javascript is a programing language and client side scripting language using in wed.
+
+2.What is the use of isNAN function?
+ANS:The isNAN() function is used to check wether a given value is an illegal number or not.
+
+3.What is negative infinity?
+ANS:NAGATIVE_INFINITY is the same as the negative value of the global objects infinity property.
+
+4.Which company developed javascript?
+ANS:javascript was created bt Brendan Eich at Netspace and has since been update to conform to ECMA-262 edition 5 and later versions.
+
+5.What are undeclared and undefined variable?
+ANS:Undefined variable means a variable has been declared but it does not have a value.
+undeclared variable means that the variable does not exist in the program at all.
+
+6.Write the code for adding new elments dynamically?
+ANS: dynamiclly add html element code answer
+ <html>
+<head>
+<title>t1</title>
+<script type=text/javascript">
+function addnode()
+{var newP=document.createTextNode("p";)}
+
+7.What is the difference between viewState and SessionState?
+ANS:ViewState is to manage state at the client end making state managment easy for end-user while  SessionState manage state at the server endmaking it easy to mange content from thid end too.
+
+8.What is ==operator?
+ANS:The equality opretor(==) checks whether its two operands are equalreturning a boolean result.
+
+9.How can the style/class of an element be changed?
+ANS:Another way to alter the style of an element is by changing its class atribute.
+
+10.How to read and write a file using javascript?
+ANS:file=fopen(getscriptpath(),0);the function fread() is used for reading the file content.
+str=fread(file.flength(file)); the function fwrite() is used to write the content to the file.
+
+11.What are all the looping stucture in javascript?
+ANS: for- loop through a block of code a number of times
+for/in-loop through the properties of an object.
+for/of-loop through the value of an iterrable object.
+while-loop through a block of code while a specific contidtion true.
+
+12.How can you convert the string of any base to an integer in javascript?
+ANS:In javascript parseint() function is used to convert the passed in string parameter or value to an integer value itself.
+
+13.What is the function of the delete operator?
+ANS:The delete opreator remove a given property from an object.
+
+14. What are all the type of popup boxes availble in javascript?
+ANS: Alert box, confrim box, prompt box
+
+15.What is the use of void(0)?
+Ans:javascript void 0 means returning undefined(void) as a primitive value.
+
+16.How can a page be forced to load another page in javascript?
+ANS:Approach:we can use window.location property inside the script tag.
+
+17.What are the disadvantages of using innerHTML in javascript?
+ANS:Disadvantages of innerHTML
+event handler attached to any DOM element are preserved.
+replacement is done everywhere.
+breack the document.
+used for cross-site scripting.
+
