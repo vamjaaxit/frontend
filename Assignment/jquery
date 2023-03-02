@@ -1,0 +1,22 @@
+ Module (JQuery Basic, Effects & Advanced) – 5
+
+
+Q.1 =	What is jQuery?
+ANS.
+ jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.
+<br>
+Q.2 =	How to Apply CSS Using JQuery, How to Add Class and Remove Class in Jquery , JQuery Animation?
+ANS.
+ addClass() - Adds one or more classes to the selected elements. removeClass() - Removes one or more classes from the selected elements. toggleClass() - Toggles between adding/removing classes from the selected elements. css() - Sets or returns the style attribute.
+<br>
+Q.3= How to create slider with animation?
+ANS.
+Step 1: Come up with a strategy for the slider. You can make as many modifications as you want to Slider Revolution templates. ...
+Step 2: Update the background image in each slide. ...
+Step 3: Update the text layers in each slide. ...
+Step 4: Edit the button text and design in each slide. ...
+Step 5: Edit the slider navigation.
+
+
+
+
