@@ -1,0 +1,82 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+overflow-x: hidden;
+
+}
+.brand
+{
+  width: 70px;
+  height: 70px;
+  margin-left: 20%;
+}
+
+.navbar ul{
+/* margin-left: 15%; */
+}
+.navbar ul li{
+  display: inline-block;
+  padding: 5px 15px;
+  list-style-type: none;
+  text-decoration-style: none;
+  margin-top: 5%;
+  font-size: 20px;
+}
+.footer
+{
+  width: 100%;
+  height: 300px;
+  background-color: rgb(3, 3, 53);
+}
+.footer h1{
+  color: white;
+  padding-top: 4%;
+}
+.footer p{
+  color: white;
+}
+input[type='text']
+{
+border-radius:20px 20px 20px 20px ;
+padding:10px 15px 10px 15px;
+border: none !important;
+font-size: 15px;
+}
+.subscribe
+{
+  background-color: rgb(79, 79, 221);
+  color: white;
+  padding:5px 15px 5px 15px;
+  border: none;
+  font-size: 20px;
+  border-radius: 20px 20px 20px 20px;
+}
+.detail
+{
+  text-align: center;
+  padding-top: 1%;
+  margin-bottom: 0 !important;
+
+}
+
+
+.our-product
+{
+  background-color: rgb(79, 79, 221);
+  color: white;
+  padding:10px 25px 10px 25px;
+  border: none;
+  
+  border-radius: 20px 20px 20px 20px;
+
+}
+.img
+{
+  width:100%;
+}
+.cardbody img
+{
+width: 100%;
+height: 250px;
+}
