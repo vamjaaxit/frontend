@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none !important;
+}
+.logo
+{
+    width:60px;
+    
+   
+}
+.nest 
+{
+    line-height:0.5px;
+    
+}
+.nest  h2
+{
+    
+   margin-top: 4%; 
+   color: greenyellow;
+}
+input [type=text]
+{
+    position: relative;
+    border-left: 0 !important;
+
+}
+.bi-search
+{padding-top: 2%;
+    margin-left:90% !important;
+    position: absolute;
+    
+}
+/* button
+{
+    position: relative;
+    background-color:white;
+
+    padding-left: 5%;
+    
+} */
+.search
+{
+    margin-top:1.5% !important;
+}
+.location
+{
+    margin-top: 1.5%;
+}
+.vegatables
+{
+    padding-left:35px !important;
+    padding-right:35px !important;
+    background-color: rgba(93, 206, 18, 0.801);
+    color: white;
+    border: 0 !important;
+    margin-top:15%;
+    padding:5px;
+}
+.services h4{
+    margin-left: 10%;
+    
+}
+.services p{
+    line-height: 0;
+    margin-left: 15%;
+    margin-top: -5%;
+    
+}
+.hotdeals
+{
+    width:50px !important;
+}
+.namehotdeals
+{
+    margin-top: 10% !important;
+    margin-left: 20% !important;
+}
+.navbar  ul li
+{
+text-decoration: none;
+
+display: inline-block;
+padding: 5px 10px;
+margin-top: 2%;
+
+
+}
+.navbar a{
+    list-style-type: none;
+    color:black;
+}
+.dropdown-menu a
+{color:white;
+
+}
+
+
+.carousel-caption
+{
+    margin: 0;
+    padding: 0;
+}
+
+input [type ="text"]
+{
+    width: 20% !important;
+    position:relative;
+}
+/* .inputaa
+{
+    width: 20px !important;
+} */
+.bi-facebook
+{
+    position:absolute;
+    margin-left: 3%;
+}
+.fruit
+{
+    width: 205px;
+    height: 150px;
+    margin: 5px;
+    border-radius: 5px;
+}
