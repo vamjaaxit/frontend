@@ -1,0 +1,42 @@
+.specifications{
+    width: 70%;
+    margin: auto;
+    margin-top:5% !important;
+}
+
+.testimonial-item {
+    background-color: #eee;
+    height: 400px !important;
+
+}
+.cell-right {
+
+    margin-right: 80px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.testimonial-job
+{
+    margin-top: 4%;
+    font-size: 30px;
+    color: burlywood;
+    text-align: center;
+    margin-left: 15% !important;
+}
+.testimonial-name {
+    font-weight: 600;
+
+}
+.testimonial-name img{
+   
+    margin-left:43% !important;
+}
+.testimonial-content.quote {
+
+    margin: 0;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+

@@ -1,0 +1,638 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 20%;
+    height: 100px;
+    margin: 15px;
+    margin-top: 2%;
+    padding: 15px;
+    margin-left: 10%;
+}
+
+.header {
+    width: 100% !important;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    position: absolute;
+}
+
+.carousel-inner {
+    height: 100vh !important;
+}
+
+#carouselExampleDarks {
+    position: relative;
+    z-index: -20;
+    height: auto !important;
+}
+
+.carousel-caption {
+    margin-bottom: 16%;
+}
+
+.carousel-caption h5 {
+    margin: 0;
+    padding: 0;
+    color: #a99368;
+    font-size: 50px;
+}
+
+.carousel-caption p {
+    color: white;
+    font-size: 30px;
+}
+
+#carouselExampleDarks img {
+    filter: brightness(70%)
+}
+
+.btn1 {
+    background-color: #a99368;
+}
+
+.nav-link:hover {
+    color: #a99368;
+}
+
+.carousel-indicators button {
+    height: 15px !important;
+    width: 15px !important;
+    border-radius: 50% !important;
+    border: 2px solid #a99368 !important;
+    background-color: transparent !important;
+
+}
+
+.carousel-indicators .active {
+    background-color: black !important;
+}
+
+.hr {
+    width: 95px !important;
+    height: 2px !important;
+    margin-left: 46%;
+    color: white;
+    color: #a99368;
+
+}
+
+#lifestyle {
+    width: 100% !important;
+}
+
+.amenities {
+    margin-left: 5% !important;
+    margin-top: 2% !important;
+
+}
+
+/* 
+.amenities1 img
+{
+    width:50% !important;
+    margin-left: 25% !important;
+    margin-top: 5% !important;
+    
+    
+} */
+.amenities-1 img {
+    width: 30% !important;
+    margin-top: -45% !important;
+    margin-left: 5% !important;
+
+
+}
+
+.amenities-para {
+    font-size: 20px !important;
+    color: white;
+
+}
+
+/* Specification section start here */
+.specifications {
+    width: 100% !important;
+}
+
+.specifications-content {
+    width: 70%;
+    margin: auto;
+}
+
+
+.cell-right {
+    text-align: center;
+
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.testimonial-name {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 700;
+    color: #a99368;
+
+}
+
+.testimonial-content.quote {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-left: 5% !important;
+}
+
+.owl-buttons {
+    display: none;
+}
+
+/* gallery */
+.gallery {
+    width: 100%;
+    background-color: #0F1113;
+    margin-bottom: -5% !important;
+}
+
+.gallery-content {
+    cursor: pointer;
+}
+
+.galleryhr {
+    width: 75px !important;
+    height: 2px !important;
+    margin-left: 47%;
+    color: white;
+    color: #a99368;
+
+}
+
+.gallery-content:hover .gallery-img img {
+    filter: brightness(50%);
+
+}
+
+.gallery-content:hover .gallery-img span {
+    opacity: 1 !important;
+    top: 55%;
+}
+
+.gallery-content:hover .gallery-img i {
+    opacity: 1 !important;
+    top: 35%;
+}
+
+.gallery-img span {
+    left: 0;
+    z-index: 50 !important;
+    font-weight: 600;
+    top: 60%;
+    font-size: 20px;
+    /* margin-left: 35%;  */
+    color: white;
+    opacity: 0;
+    transition: 0.5s ease all;
+}
+
+.gallery-img i {
+    left: 0;
+    top: 30%;
+    padding: 2.5% 3.5%;
+    font-size: 18px;
+    border-radius: 50%;
+    color: white;
+    margin-left: 43%;
+    margin-bottom: 30%;
+
+    z-index: 50 !important;
+    background-color: #a99368;
+    opacity: 0;
+    transition: 0.5s ease all;
+}
+
+.gallery-img i {
+    left: 0;
+    top: 30%;
+    padding: 2.5% 3.5%;
+    font-size: 18px;
+    border-radius: 50%;
+    color: white;
+    margin-left: 43%;
+    margin-bottom: 30%;
+
+    z-index: 50 !important;
+    background-color: #a99368;
+    opacity: 0;
+    transition: 0.5s ease all;
+}
+
+.gallery-buttons {
+    text-align: center;
+}
+
+.gallery-buttons span {
+    padding: 1% 2%;
+    cursor: pointer;
+}
+
+#kruti-views {
+    background-color: #A99368;
+    border-top: 3px solid #A99368;
+    border-bottom: 3px solid #A99368;
+}
+
+#kruti-plans {
+    border-top: 3px solid #A99368;
+    border-bottom: 3px solid #A99368;
+}
+
+#kruti-layout {
+    display: none;
+    width: 99%;
+
+
+}
+
+/* walkthrough */
+#walkthrough {
+    height: auto !important;
+    background: black;
+    padding-top: 1% !important;
+}
+
+#walkthrough-btn-1,
+#walkthrough-btn-2 {
+    border: 2px solid #A99368;
+    padding: 0.1% 0.6%;
+    margin: 1%;
+    color: transparent;
+    border-radius: 50%;
+}
+
+.walkthrough-nav .active {
+    background-color: white;
+}
+
+/* form */
+.brochure {
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    background: url('../images/download_bg.jpg');
+    background-attachment: fixed;
+}
+
+.brochure-content {
+    width: 45%;
+    height: 50vh;
+    padding: 2% 2% 0%;
+    border: 5px solid #a99368;
+}
+
+.brochure hr {
+    width: 30%;
+    height: 4px;
+    background-color: #85724c;
+}
+
+.brochure-input {
+    width: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #a99368;
+}
+
+.brochure-input input {
+    width: 92%;
+    border: none;
+    outline: none;
+
+}
+
+.brochure-icon {
+    height: 4vh;
+    width: 6.7%;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    padding: 1px 1%;
+    background-color: #a99368;
+}
+
+.brochure-submit-btn {
+
+    background-color: #a99368;
+}
+
+.brochure-content img {
+    margin: 5% 15%;
+
+}
+
+/* footer */
+
+.footer {
+    width: 100% !important;
+}
+
+.footer-logo img {
+    width: 150px !important;
+    height: 100px !important;
+    margin-left: 10% !important;
+    margin-top: 5% !important;
+}
+
+.footer-para {
+    color: white;
+    margin-left: 15% !important;
+    margin-top: 3% !important;
+}
+
+.footer-map {
+    width: 90% !important;
+    height: 650px !important;
+}
+
+.footer-details {
+    margin-left: 6% !important;
+    margin-top: 2% !important;
+}
+
+.bi-facebook,
+.bi-twitter,
+.bi-google,
+.bi-pinterest,
+.bi-youtube {
+    color: black;
+    background-color: #a99368;
+    border-radius: 50%;
+    padding: 2px 4px !important;
+}
+
+
+.footer-copyright {
+    width: 100% !important;
+    padding: 8px 8px !important;
+    text-align: center;
+    background-color: #a99368;
+}
+
+.maps {
+    width: 100% !important;
+    height: 430px !important;
+    padding-top: 20% !important;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+    .logo img {
+        width: 70px !important;
+        height: 50px !important;
+
+    }
+
+    .header {
+        width: 100% !important;
+        height: auto !important;
+        background-color: black !important;
+        border-bottom: 1px solid #a99368;
+    }
+
+    #carouselExampleDarks {
+        width: 100% !important;
+        margin-top: 29% !important;
+    }
+
+    .carousel-inner {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .carousel-caption {
+        margin-bottom: 0% !important;
+    }
+
+    .carousel-caption h5 {
+        margin: 0;
+        padding: 0;
+        color: #a99368;
+        font-size: 20px;
+    }
+
+    .carousel-caption p {
+        color: white;
+        font-size: 15px;
+    }
+
+    .hr {
+        width: 75px !important;
+        height: 2px !important;
+        margin-left: 35%;
+        color: white;
+        color: #a99368;
+
+    }
+
+    #lifestyle {
+        width: 100% !important;
+    }
+/* amenities */
+    .amenities {
+        margin-left: 5% !important;
+        margin-top: 1% !important;
+    }
+    .amenities1 img {
+        width: 40% !important;
+        margin-left: 25% !important;
+    }
+
+    .amenities-1 img {
+        width: 40% !important;
+        margin-bottom: 10% !important;
+        margin-left: 5% !important;
+
+
+    }
+
+    .amenities-para {
+        font-size: 20px !important;
+        color: white;
+
+    }
+
+    /* video */
+    #walkthrough {
+        width: 100% !important;
+        height: 400px !important;
+        background: black;
+        padding-top: 7% !important;
+
+    }
+
+    .axit {
+        margin-left: -24% !important;
+    }
+
+    #walkthrough-btn-1,
+    #walkthrough-btn-2 {
+        border: 2px solid #A99368;
+        padding: 0.1% 0.6%;
+
+        color: transparent;
+        border-radius: 50%;
+    }
+
+    .walkthrough-nav .active {
+        background-color: white;
+    }
+     .video {
+        width: 100% !important;
+    }
+
+    /* Download Brochure style start here */
+    .brochure {
+        width: 100%;
+        height: auto;
+        padding: 20%;
+        background-size: cover;
+    }
+
+    .brochure-content {
+        width: 100%;
+        height: auto;
+        padding: 2% 2% 3%;
+
+    }
+
+    .brochure-icon {
+        height: 4vh;
+        width: 13%;
+        font-size: 13px;
+        padding: 0% 1.7%;
+    }
+
+    .brochure-input {
+        width: 90%;
+        margin: auto;
+    }
+
+    .brochure-input input {
+        width: 80%;
+    }
+
+    /* footer */
+    .footer {
+        width: 100% !important;
+    }
+
+    .footer-logo img {
+        width: 100px !important;
+        height: 90px !important;
+        margin-left: 35% !important;
+        margin-top: 15% !important;
+    }
+
+    .footer-para {
+        margin-left: -1% !important;
+        text-align: center !important;
+    }
+
+    .footer-details {
+        text-align: center !important;
+        margin-left: -1% !important;
+    }
+
+    .maps {
+        width: 100% !important;
+        height: 230px !important;
+        padding-top: 0% !important;
+    }
+
+
+    iframe {
+        width: 100% !important;
+        height: 200px !important;
+        border: 3px solid #a99368 !important;
+        margin-bottom: 2% !important;
+        text-align: justify !important;
+    }
+
+
+    /* layout */
+    .img-div figure {
+        width: 97% !important;
+        text-align: center;
+        mar
+    }
+
+    .gallery {
+        margin-bottom: -15% !important;
+    }
+
+    /* gallery */
+    .galleryhr {
+        width: 75px !important;
+        height: 2px !important;
+        margin-left: 40%;
+        color: white;
+        color: #a99368;
+
+    }
+
+    .specifications {
+        width: 100% !important;
+    }
+
+    .specifications-content {
+        width: 100%;
+        margin: auto;
+    }
+
+
+    .cell-right {
+        margin-left: 25% !important;
+
+        padding-top: 35px;
+        padding-bottom: 20px;
+    }
+
+    .testimonial-name {
+        font-style: italic;
+        font-size: 20px;
+        font-weight: 700;
+        color: #a99368;
+     text-align: center;
+
+    }
+
+    .testimonial-content.quote {
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        margin-left: 18% !important;
+    }
+
+    .owl-buttons {
+        display: none;
+    }
+    .layout-secction
+    {
+        width: 100% !important;
+        margin: 0% !important;
+        padding: 0% !important;
+        overflow-x: hidden;
+    }
+}
