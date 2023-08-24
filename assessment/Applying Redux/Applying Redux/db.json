@@ -1,0 +1,16 @@
+{
+  "task": [
+    {
+      "title": "vivi v27pro",
+      "price": "23000",
+      "category": "phone",
+      "id": 1
+    },
+    {
+      "title": "i phone 14",
+      "price": "1,20,000",
+      "category": "phone",
+      "id": 2
+    }
+  ]
+}

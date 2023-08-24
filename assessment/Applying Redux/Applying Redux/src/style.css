@@ -1,0 +1,57 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  background: url('data:image/jpeg;base64,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');
+  background-size: 100% 100vh;
+}
+.TaskManager{
+  width: 100%;
+  height: auto;
+}
+.TaskManager .pops{
+  width: 80% !important;
+}
+.Manage{
+  width: 80% !important;
+}
+.searchinput
+{
+  margin-left: 38%;
+  width: 50%;
+}
+.searchproduct
+{
+  margin-left: 10%;
+}
+
+
+
+@media only screen and (max-width: 991px){
+  .TaskManager .pops{
+    width: 90% !important;
+  }
+  .Manage{
+    width: 90% !important;
+  }
+}
+
+@media only screen and (max-width: 576px){
+  .TaskManager .pops{
+    width: 90% !important;
+  }
+  .Manage{
+    width: 90% !important;
+  }
+}
+@media only screen and (max-width: 343px){
+  .TaskManager .pops{
+    width: 98% !important;
+  }
+  .Manage{
+    width: 98% !important;
+    overflow-x: scroll;
+  }
+}
